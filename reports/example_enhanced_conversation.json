@@ -1,0 +1,44 @@
+[
+  {
+    "from": "venice_001",
+    "to": "broadcast",
+    "tick": 35,
+    "intent": "status_update",
+    "content": "Palazzo Ducale reporting critical flooding in ground floor chambers. Tourist access blocked, structural assessment needed.",
+    "payload": {
+      "status": "critical",
+      "place_name": "Palazzo Ducale",
+      "sector": "heritage",
+      "flood_impact": "partial_flooding"
+    }
+  },
+  {
+    "from": "venice_045",
+    "to": "venice_001",
+    "tick": 36,
+    "intent": "request_support",
+    "content": "Cannaregio Hospital monitoring your situation. Do you need evacuation assistance for staff or emergency shelter setup?",
+    "payload": {
+      "need": "evacuation_support",
+      "urgency": "alert",
+      "capabilities": [
+        "medical_care",
+        "emergency_treatment"
+      ]
+    }
+  },
+  {
+    "from": "venice_001",
+    "to": "venice_045",
+    "tick": 37,
+    "intent": "commit",
+    "content": "Palazzo Ducale accepts. We can provide temporary shelter in upper floors for medical overflow if needed.",
+    "payload": {
+      "need": "shelter_space",
+      "response_capability": [
+        "cultural_preservation",
+        "shelter_space"
+      ]
+    }
+  }
+]

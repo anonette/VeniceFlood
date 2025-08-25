@@ -1,0 +1,18 @@
+{
+  "validation_timestamp": "2025-08-25T06:40:51.367212",
+  "test_scenario": "communication_breakdown",
+  "frameworks_compared": [
+    "structured"
+  ],
+  "behavioral_differences": {},
+  "validation_status": "failed",
+  "results": {
+    "structured": {
+      "system_degradation": 0.0,
+      "total_messages": 0,
+      "successful_messages": 0,
+      "coordination_success_rate": 0.0,
+      "decision_pattern": "fixed_probability_0.7"
+    }
+  }
+}

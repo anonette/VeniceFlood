@@ -1,0 +1,38 @@
+[
+  {
+    "tick": 15,
+    "event_id": "power_surge",
+    "description": "Electrical grid surge damages connected systems",
+    "affected_agents": 5,
+    "system_states": {
+      "power_grid": 0.32499999999999996,
+      "water_system": 1.0,
+      "communication_network": 0.7,
+      "transport_network": 1.0,
+      "emergency_services": 1.0,
+      "digital_infrastructure": 1.0,
+      "pumping_stations": 0.4750000000000001,
+      "flood_barriers": 1.0,
+      "sensor_network": 0.55
+    },
+    "severity": 0.75
+  },
+  {
+    "tick": 25,
+    "event_id": "pump_degradation",
+    "description": "Pump systems operating at reduced capacity",
+    "affected_agents": 2,
+    "system_states": {
+      "power_grid": 0.32499999999999996,
+      "water_system": 1.0,
+      "communication_network": 0.7,
+      "transport_network": 0.6799999999999999,
+      "emergency_services": 0.76,
+      "digital_infrastructure": 1.0,
+      "pumping_stations": 0.0,
+      "flood_barriers": 1.0,
+      "sensor_network": 0.55
+    },
+    "severity": 0.8
+  }
+]

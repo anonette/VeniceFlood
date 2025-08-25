@@ -1,0 +1,38 @@
+[
+  {
+    "tick": 30,
+    "event_id": "cell_tower_flood",
+    "description": "Cellular towers flooded - network capacity reduced",
+    "affected_agents": 3,
+    "system_states": {
+      "power_grid": 1.0,
+      "water_system": 1.0,
+      "communication_network": 1.0,
+      "transport_network": 0.6799999999999999,
+      "emergency_services": 0.76,
+      "digital_infrastructure": 1.0,
+      "pumping_stations": 0.52,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0
+    },
+    "severity": 0.8
+  },
+  {
+    "tick": 45,
+    "event_id": "internet_backbone",
+    "description": "Internet backbone damage - digital isolation",
+    "affected_agents": 3,
+    "system_states": {
+      "power_grid": 1.0,
+      "water_system": 1.0,
+      "communication_network": 1.0,
+      "transport_network": 0.39999999999999997,
+      "emergency_services": 0.55,
+      "digital_infrastructure": 1.0,
+      "pumping_stations": 0.10000000000000003,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0
+    },
+    "severity": 0.7
+  }
+]

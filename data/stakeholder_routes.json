@@ -1,0 +1,28 @@
+{
+  "routing_version": "v0.1",
+  "stakeholders": {
+    "health_authority": [
+      "hospital"
+    ],
+    "utility_power": [
+      "power_substation"
+    ],
+    "stormwater_ops": [
+      "stormwater_pump",
+      "hospital",
+      "school"
+    ],
+    "heritage_board": [
+      "heritage_site",
+      "museum"
+    ],
+    "transport_ops": [
+      "bridge",
+      "transport_stop"
+    ]
+  },
+  "default_broadcast": [
+    "municipality_comms",
+    "public_alerts"
+  ]
+}

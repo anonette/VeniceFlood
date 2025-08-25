@@ -1,0 +1,92 @@
+[
+  {
+    "tick": 10,
+    "event_id": "flood_init",
+    "description": "Venice acqua alta flooding begins - 120cm expected",
+    "affected_agents": 115,
+    "system_states": {
+      "power_grid": 1.0,
+      "water_system": 1.0,
+      "communication_network": 1.0,
+      "transport_network": 1.0,
+      "emergency_services": 1.0,
+      "digital_infrastructure": 1.0,
+      "pumping_stations": 1.0,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0
+    },
+    "severity": 0.6
+  },
+  {
+    "tick": 20,
+    "event_id": "ransomware_attack",
+    "description": "Ransomware attack targets pump control systems",
+    "affected_agents": 5,
+    "system_states": {
+      "power_grid": 1.0,
+      "water_system": 1.0,
+      "communication_network": 0.6,
+      "transport_network": 1.0,
+      "emergency_services": 0.76,
+      "digital_infrastructure": 0.3599999999999999,
+      "pumping_stations": 0.52,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0
+    },
+    "severity": 0.8
+  },
+  {
+    "tick": 25,
+    "event_id": "pump_failure",
+    "description": "Automated pump systems offline - manual operation only",
+    "affected_agents": 2,
+    "system_states": {
+      "power_grid": 1.0,
+      "water_system": 1.0,
+      "communication_network": 0.6,
+      "transport_network": 0.6399999999999999,
+      "emergency_services": 0.49,
+      "digital_infrastructure": 0.3599999999999999,
+      "pumping_stations": 0.0,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0
+    },
+    "severity": 0.9
+  },
+  {
+    "tick": 35,
+    "event_id": "comm_overload",
+    "description": "Emergency communication channels overwhelmed",
+    "affected_agents": 3,
+    "system_states": {
+      "power_grid": 1.0,
+      "water_system": 1.0,
+      "communication_network": 0.040000000000000036,
+      "transport_network": 0.4999999999999999,
+      "emergency_services": 0.14,
+      "digital_infrastructure": 0.3599999999999999,
+      "pumping_stations": 0.0,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0
+    },
+    "severity": 0.7
+  },
+  {
+    "tick": 50,
+    "event_id": "public_panic",
+    "description": "Public panic due to failed flood response systems",
+    "affected_agents": 0,
+    "system_states": {
+      "power_grid": 1.0,
+      "water_system": 1.0,
+      "communication_network": 0.0,
+      "transport_network": 0.3199999999999999,
+      "emergency_services": 0.0,
+      "digital_infrastructure": 0.3599999999999999,
+      "pumping_stations": 0.0,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0
+    },
+    "severity": 0.6
+  }
+]

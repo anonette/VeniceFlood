@@ -1,0 +1,6 @@
+,id,name,type_enriched,lat,lon,priority_score
+76,node/4572028440,Galleria internazionale di arte moderna,power_substation,45.4411055,12.3318118,10.99847493021085
+77,node/4798279235,Scuola Grande di San Marco,school,45.4397895,12.3414791,7.341440838211733
+7,way/138802202,Scuola Grande San Marco,school,45.4397882,12.341515,7.3409859010602165
+16,way/252637693,Campanile di San Marco,heritage_site,45.4340361,12.3390443,6.948679265247948
+60,node/4121738103,Museo archeologico nazionale di Venezia,museum,45.43372,12.338889,6.929473988680044

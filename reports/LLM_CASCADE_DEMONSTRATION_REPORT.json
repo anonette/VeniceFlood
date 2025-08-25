@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-08-24T18:21:06.901522",
+  "llm_enhanced_analysis": true,
+  "scenarios_analyzed": [
+    "ransomware_flood",
+    "communication_breakdown"
+  ],
+  "cascade_metrics": {
+    "ransomware_flood": {
+      "system_degradation": 0.48000000000000004,
+      "infrastructure_resilience": 0.52,
+      "cascade_events": 5
+    },
+    "communication_breakdown": {
+      "system_degradation": 0.21666666666666667,
+      "infrastructure_resilience": 0.7833333333333334,
+      "cascade_events": 2
+    }
+  },
+  "communication_insights": {
+    "ransomware_flood": {
+      "total_enhanced_messages": 0,
+      "communication_patterns": 0,
+      "place_voices_analyzed": 0,
+      "content_effectiveness": {}
+    },
+    "communication_breakdown": {
+      "total_enhanced_messages": 0,
+      "communication_patterns": 0,
+      "place_voices_analyzed": 0,
+      "content_effectiveness": {}
+    }
+  },
+  "stakeholder_applications": {}
+}

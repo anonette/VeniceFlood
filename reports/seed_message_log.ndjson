@@ -1,0 +1,3 @@
+{"sender": "venice_001", "receiver": "broadcast", "tick": 5, "intent": "status_update", "payload": {"status": "alert", "place_name": "Palazzo Moro", "sector": "heritage", "vulnerability": 0.7}, "success": true}
+{"sender": "venice_002", "receiver": "venice_027", "tick": 7, "intent": "request_support", "payload": {"need": "evacuation", "urgency": "critical", "place_name": "Palazzo Tiepolo"}, "success": true}
+{"sender": "venice_027", "receiver": "venice_002", "tick": 8, "intent": "commit", "payload": {"need": "evacuation", "estimated_response_time": 3}, "success": true}

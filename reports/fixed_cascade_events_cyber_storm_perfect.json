@@ -1,0 +1,56 @@
+[
+  {
+    "tick": 5,
+    "event_id": "major_flood",
+    "description": "Exceptional acqua alta + storm surge - 160cm flooding",
+    "affected_agents": 115,
+    "system_states": {
+      "power_grid": 1.0,
+      "water_system": 1.0,
+      "communication_network": 1.0,
+      "transport_network": 1.0,
+      "emergency_services": 1.0,
+      "digital_infrastructure": 1.0,
+      "pumping_stations": 1.0,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0
+    },
+    "severity": 0.9
+  },
+  {
+    "tick": 25,
+    "event_id": "nation_state_cyber",
+    "description": "Sophisticated cyber attack on critical infrastructure",
+    "affected_agents": 5,
+    "system_states": {
+      "power_grid": 1.0,
+      "water_system": 1.0,
+      "communication_network": 0.575,
+      "transport_network": 1.0,
+      "emergency_services": 0.745,
+      "digital_infrastructure": 0.31999999999999995,
+      "pumping_stations": 0.49,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0
+    },
+    "severity": 0.85
+  },
+  {
+    "tick": 40,
+    "event_id": "supply_disruption",
+    "description": "Supply chain collapse - no replacement equipment",
+    "affected_agents": 0,
+    "system_states": {
+      "power_grid": 0.86,
+      "water_system": 1.0,
+      "communication_network": 0.575,
+      "transport_network": 1.0,
+      "emergency_services": 0.395,
+      "digital_infrastructure": 0.31999999999999995,
+      "pumping_stations": 0.28,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0
+    },
+    "severity": 0.7
+  }
+]

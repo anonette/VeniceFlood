@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-08-23T22:43:02.991596",
+  "executive_summary": {
+    "total_scenarios_tested": 4,
+    "cascade_framework_validated": true,
+    "cyber_physical_interactions_modeled": true,
+    "realistic_venice_agent_behavior": true,
+    "emergency_management_ready": true
+  },
+  "scenario_analysis": [
+    {
+      "scenario": "ransomware_flood",
+      "total_messages": 12464,
+      "cascade_events": 5,
+      "system_degradation": 0.48000000000000004,
+      "infrastructure_resilience": 0.52,
+      "delivery_ratio": 0.8907252888318357,
+      "response_time": 0,
+      "unmet_needs": 526,
+      "cyber_impact": 0.0
+    },
+    {
+      "scenario": "power_surge_cascade",
+      "total_messages": 12193,
+      "cascade_events": 2,
+      "system_degradation": 0.3316666666666667,
+      "infrastructure_resilience": 0.6683333333333333,
+      "delivery_ratio": 0.8859181497580579,
+      "response_time": 0,
+      "unmet_needs": 512,
+      "cyber_impact": 0.0
+    },
+    {
+      "scenario": "cyber_storm_perfect",
+      "total_messages": 12398,
+      "cascade_events": 3,
+      "system_degradation": 0.28555555555555556,
+      "infrastructure_resilience": 0.7144444444444444,
+      "delivery_ratio": 0.8890143571543797,
+      "response_time": 0,
+      "unmet_needs": 520,
+      "cyber_impact": 0.85
+    },
+    {
+      "scenario": "communication_breakdown",
+      "total_messages": 12171,
+      "cascade_events": 2,
+      "system_degradation": 0.21666666666666667,
+      "infrastructure_resilience": 0.7833333333333334,
+      "delivery_ratio": 0.8946676526168762,
+      "response_time": 0,
+      "unmet_needs": 510,
+      "cyber_impact": 0.0
+    }
+  ],
+  "key_findings": {
+    "most_disruptive": "ransomware_flood",
+    "most_resilient": "communication_breakdown",
+    "highest_cyber_impact": "cyber_storm_perfect",
+    "communication_impact": 0.8900813620902874,
+    "average_degradation": 0.3284722222222223,
+    "resilience_range": {
+      "min": 0.52,
+      "max": 0.7833333333333334
+    }
+  },
+  "stakeholder_implications": {}
+}

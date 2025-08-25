@@ -1,0 +1,1497 @@
+{
+  "venice_001": {
+    "place_name": "Palazzo Moro",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_002": {
+    "place_name": "Palazzo Tiepolo",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_003": {
+    "place_name": "Palazzo Giustiniani",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_004": {
+    "place_name": "Palazzo Treves De Bonfilio",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_005": {
+    "place_name": "Ex-convento della Celestia",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_006": {
+    "place_name": "Palazzo Erizzo",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_007": {
+    "place_name": "Chiesa di San Lazzaro dei Mendicanti",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_008": {
+    "place_name": "Scuola Grande San Marco",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_009": {
+    "place_name": "Daniele Manin",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_010": {
+    "place_name": "Carlo Goldoni",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_011": {
+    "place_name": "Palazzo Ducale",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_012": {
+    "place_name": "Casa di Tintoretto",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_013": {
+    "place_name": "Palazzetto Stern",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_014": {
+    "place_name": "Casa dei Tre Oci",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_015": {
+    "place_name": "Giardini Reali di Venezia",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_016": {
+    "place_name": "Museo Ebraico",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_017": {
+    "place_name": "Campanile di San Marco",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_018": {
+    "place_name": "Palazzo Loredan dell'Ambasciatore",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_019": {
+    "place_name": "Palazzo Bellavite",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_020": {
+    "place_name": "Colonna di San Marco",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_021": {
+    "place_name": "Colonna di San Teodoro",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_022": {
+    "place_name": "Palazzo Dandolo",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_023": {
+    "place_name": "Pozzo Veneziano dei Bernardo",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_024": {
+    "place_name": "Vittorio Emanuele II",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_025": {
+    "place_name": "Bartolomeo Colleoni",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_026": {
+    "place_name": "Monumento alla Partigiana",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_027": {
+    "place_name": "Questura",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_028": {
+    "place_name": "Monumento a Niccol\u00f2 Tommaseo",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_029": {
+    "place_name": "Gallerie dell'Accademia",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_030": {
+    "place_name": "Il nuovo trionfo",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_031": {
+    "place_name": "Biblioteca galleggiante",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_032": {
+    "place_name": "Rimorchiatore",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_033": {
+    "place_name": "Forte di Sant'Andrea",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_034": {
+    "place_name": "San Nicolo' Aquileia",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_035": {
+    "place_name": "San Nicolo' Marco Polo",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_036": {
+    "place_name": "Gallo Bragadin",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_037": {
+    "place_name": "Gallo Contarini",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_038": {
+    "place_name": "Gallo Contarini",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_039": {
+    "place_name": "Santa Maria Elisabetta",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_040": {
+    "place_name": "San Nicolo' Cipro",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_041": {
+    "place_name": "Gallo Bragadin",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_042": {
+    "place_name": "D'Annunzio Spiagge",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_043": {
+    "place_name": "D'Annunzio Pola",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_044": {
+    "place_name": "San Nicolo' Marco Polo",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_045": {
+    "place_name": "San Nicolo' Cipro",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_046": {
+    "place_name": "Marconi Des Bains",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_047": {
+    "place_name": "Santa Maria Elisabetta",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_048": {
+    "place_name": "Gran Viale",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_049": {
+    "place_name": "San Nicolo' Aquileia",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_050": {
+    "place_name": "D'Annunzio Pola",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_051": {
+    "place_name": "Giardini della Biennale",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_052": {
+    "place_name": "Museo Diocesano",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_053": {
+    "place_name": "Vigili del Fuoco",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_054": {
+    "place_name": "Museo di Storia Naturale di Venezia",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_055": {
+    "place_name": "Guardia di Finanza",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_056": {
+    "place_name": "Prefettura di Venezia",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_057": {
+    "place_name": "Carabinieri",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_058": {
+    "place_name": "Venezia - Piazzale Roma",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_059": {
+    "place_name": "Museo di Fisica \"Anton Maria Traversi\"",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_060": {
+    "place_name": "Museo Correr",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_061": {
+    "place_name": "Museo archeologico nazionale di Venezia",
+    "final_status": "crisis",
+    "concerns_remaining": 7,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_062": {
+    "place_name": "Guardia di Finanza Comando Regionale del Veneto",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_063": {
+    "place_name": "Museo della Musica",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_064": {
+    "place_name": "Istituto Veneto di Scienze Lettere ed Arti",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_065": {
+    "place_name": "Venezia Tronchetto",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_066": {
+    "place_name": "Casa di Carlo Goldoni",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_067": {
+    "place_name": "La Biennale di Venezia - Arsenale",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_068": {
+    "place_name": "Palazzo Bembo",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_069": {
+    "place_name": "Museo d'Arte Orientale",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_070": {
+    "place_name": "Liberta' Santa Chiara",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_071": {
+    "place_name": "Liberta' Santa Chiara",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_072": {
+    "place_name": "Guardia di Finanza I gruppo Venezia",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_073": {
+    "place_name": "Leonardo da Vinci",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_074": {
+    "place_name": "Palazzo Mocenigo",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_075": {
+    "place_name": "TIM Future Center",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_076": {
+    "place_name": "Negozio Olivetti",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_077": {
+    "place_name": "Galleria internazionale di arte moderna",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_078": {
+    "place_name": "Scuola Grande di San Marco",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_079": {
+    "place_name": "bus stop to PLUS Camping Jolly",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_080": {
+    "place_name": "Santa Maria Elisabetta",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_081": {
+    "place_name": "Marconi Des Bains",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_082": {
+    "place_name": "Santa Maria Elisabetta",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_083": {
+    "place_name": "D'Annunzio Spiagge",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_084": {
+    "place_name": "Marconi Fiume",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_085": {
+    "place_name": "Gran Viale S.M.E. - Incr. via Zara",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_086": {
+    "place_name": "Gran Viale",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_087": {
+    "place_name": "Marconi Fiume",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_088": {
+    "place_name": "Gran Viale S.M.E. - Incr. via Dardanelli",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_089": {
+    "place_name": "Santa Maria Elisabetta",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_090": {
+    "place_name": "Peggy Guggenheim Collection",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_091": {
+    "place_name": "Fondazione Querini Stampalia",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_092": {
+    "place_name": "Istituto Ospedaliero Fatebenefratelli",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_093": {
+    "place_name": "Palazzo Soranzo Van Axel",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_094": {
+    "place_name": "Polizia Municipale",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_095": {
+    "place_name": "Palazzo Zaguri",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_096": {
+    "place_name": "Museo del Manicomio",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_097": {
+    "place_name": "Carabinieri",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_098": {
+    "place_name": "Venezia - Piazzale Roma",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_099": {
+    "place_name": "Museo Wagner",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_100": {
+    "place_name": "Polizia Locale Venezia",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_101": {
+    "place_name": "Museo della farmacia",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_102": {
+    "place_name": "Polizia Municipale Sezione Cannaregio",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_103": {
+    "place_name": "Fondazione Prada",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_104": {
+    "place_name": "Binario 22",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_105": {
+    "place_name": "Human Safety Net",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_106": {
+    "place_name": "Opera Bevilacqua La Masa",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_107": {
+    "place_name": "Museo di icone",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_108": {
+    "place_name": "Museo diocesano",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_109": {
+    "place_name": "Leonardo da Vinci",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_110": {
+    "place_name": "ATVO Aiport Express",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_111": {
+    "place_name": "Venezia",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_112": {
+    "place_name": "Palazzo Diedo",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_113": {
+    "place_name": "Giardini del Redentore",
+    "final_status": "crisis",
+    "concerns_remaining": 3,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_114": {
+    "place_name": "Vigili Urbani",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  },
+  "venice_115": {
+    "place_name": "Carabinieri",
+    "final_status": "crisis",
+    "concerns_remaining": 5,
+    "network_size": 114,
+    "trust_network": {},
+    "communication_adaptations": {
+      "broadcast_tendency": 0.8,
+      "help_willingness": 0.7,
+      "trust_threshold": 0.5
+    },
+    "partnerships_formed": 0
+  }
+}
