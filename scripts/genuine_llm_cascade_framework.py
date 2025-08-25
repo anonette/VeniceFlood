@@ -146,25 +146,33 @@ class GenuineLLMCoordinator:
             # NO FALLBACK - genuine research requires LLM analysis
             raise RuntimeError(f"LLM message effectiveness analysis required but failed: {e}")
     
-    def discover_creative_partnerships(self, agent: Dict, need: str, crisis_context: Dict, 
+    def discover_creative_partnerships(self, agent: Dict, need: str, crisis_context: Dict,
                                      existing_partners: List[str]) -> List[str]:
         """LLM discovers non-obvious partnership opportunities"""
         
+        agent_sector = agent.get('sector', 'unknown')
+        health_priority_note = ""
+        if agent_sector == 'health' or need in ['medical_care', 'patient_evacuation', 'medical_supplies']:
+            health_priority_note = "\n*** CRITICAL: HEALTH INFRASTRUCTURE INVOLVED - PRIORITIZE MEDICAL PARTNERSHIPS ***"
+        
         prompt = f"""
-        Emergency coordination in Venice flood:
+        Emergency coordination in Venice flood:{health_priority_note}
         Location: {agent.get('place_name', 'Unknown')} needs {need}
+        Sector: {agent_sector} {'[HEALTH - ABSOLUTE PRIORITY]' if agent_sector == 'health' else ''}
         Crisis: {crisis_context.get('description', 'Multi-hazard cascade')}
         
         Current flood stage: {crisis_context.get('flood_stage', 0)}/3
         Active cascade events: {crisis_context.get('active_events', [])}
         
-        Beyond obvious partners, which Venice locations could help with {need} and WHY?
-        Consider:
-        - Cultural institutions with resources
-        - Transport nodes with access/mobility
-        - Emergency services with capabilities
-        - Commercial areas with supplies
-        - Religious/community buildings with space
+        PRIORITY ORDER for partnerships:
+        1. HEALTH INFRASTRUCTURE (hospitals, emergency medical, ambulances) - ALWAYS FIRST
+        2. Emergency services and life safety
+        3. Cultural institutions with resources
+        4. Transport nodes with access/mobility
+        5. Commercial areas with supplies
+        6. Religious/community buildings with space
+        
+        Which Venice locations could help with {need} and WHY?
         
         Format: PARTNER:Location_Name REASON:why_they_could_help STRENGTH:0.0-1.0
         Limit to 3 creative suggestions.
@@ -288,23 +296,44 @@ class GenuineLLMCoordinator:
     def _get_coordination_system_prompt(self) -> str:
         return """You are an expert in Venice emergency coordination. You make decisions about whether locations should commit to helping each other during cascading flood disasters.
 
+CRITICAL PRIORITY HIERARCHY:
+1. HEALTH INFRASTRUCTURE (hospitals, emergency medical, ambulances) - ALWAYS TOP PRIORITY
+2. Life safety and emergency response services
+3. Cultural heritage preservation
+4. Transport and evacuation infrastructure
+5. Other infrastructure and services
+
 Consider:
-- Sender's urgency and needs
-- Receiver's capabilities and current stress level  
+- Sender's urgency and needs (prioritize medical/health emergencies)
+- Receiver's capabilities and current stress level
 - Cultural/operational compatibility
 - Resource availability
 - Strategic coordination value
 - Partnership building potential
+- HEALTH INFRASTRUCTURE MUST BE PROTECTED AND SUPPORTED FIRST
 
 Decide: commit/reject/negotiate/redirect
 Provide reasoning and confidence level."""
     
     def _build_decision_prompt(self, receiver_agent: Dict, request_message: Dict, context: Dict) -> str:
+        receiver_sector = receiver_agent.get('sector', 'unknown')
+        sender_sector = None
+        if 'payload' in request_message and 'place_name' in request_message['payload']:
+            # Try to find sender sector from agents
+            sender_name = request_message['payload']['place_name']
+            # This is a simplified lookup - in full implementation would have agent registry
+            if 'hospital' in sender_name.lower() or 'medic' in sender_name.lower() or 'emergency' in sender_name.lower():
+                sender_sector = 'health'
+        
+        health_priority_note = ""
+        if receiver_sector == 'health' or sender_sector == 'health':
+            health_priority_note = "\n*** CRITICAL: HEALTH INFRASTRUCTURE INVOLVED - MAXIMUM PRIORITY ***"
+        
         return f"""
-COORDINATION DECISION NEEDED:
+COORDINATION DECISION NEEDED:{health_priority_note}
 
-Receiver: {receiver_agent.get('place_name', 'Unknown')} 
-- Sector: {receiver_agent.get('sector', 'unknown')}
+Receiver: {receiver_agent.get('place_name', 'Unknown')}
+- Sector: {receiver_sector} {'[HEALTH - TOP PRIORITY]' if receiver_sector == 'health' else ''}
 - Status: {receiver_agent.get('status', 'unknown')}
 - Capabilities: {receiver_agent.get('capabilities', [])}
 - Current stress: {context.get('system_degradation', 0.0):.2f}
@@ -319,12 +348,14 @@ Crisis context:
 - Active cascades: {len(context.get('active_events', []))}
 - Infrastructure resilience: {context.get('infrastructure_resilience', 1.0):.2f}
 
+REMEMBER: Health infrastructure (hospitals, emergency medical, ambulances) gets ABSOLUTE PRIORITY
+
 Decision format:
 DECISION:commit/reject/negotiate/redirect
 CONFIDENCE:0.0-1.0
 REASONING:explanation
 CONDITIONS:any_requirements
-PRIORITY:0.0-1.0 
+PRIORITY:0.0-1.0
 PARTNERSHIP:0.0-1.0
 """
     
@@ -662,6 +693,13 @@ class GenuineLLMCascadeSimulation(FixedMultiHazardSimulation):
         # Start with LLM confidence as base - this makes it fundamentally different from fixed 0.7
         base_probability = llm_decision.confidence * 0.6  # Scale confidence to be base
         
+        # HEALTH INFRASTRUCTURE PRIORITY BOOST
+        health_priority_boost = 0.0
+        if hasattr(request_message, 'sender') and request_message.sender in self.agents:
+            sender_agent = self.agents[request_message.sender]
+            if getattr(sender_agent, 'sector', '') == 'health':
+                health_priority_boost = 0.25  # Significant boost for health infrastructure
+        
         # LLM reasoning quality influences success (longer reasoning = better thought-out decision)
         reasoning_quality = min(0.3, len(llm_decision.reasoning) / 200.0)  # Reward detailed reasoning
         
@@ -700,7 +738,7 @@ class GenuineLLMCascadeSimulation(FixedMultiHazardSimulation):
             'reject': -0.3
         }.get(llm_decision.decision_type, 0.0)
         
-        final_probability = base_probability + reasoning_quality + priority_bonus + partnership_bonus + content_bonus + style_bonus + decision_modifier
+        final_probability = base_probability + health_priority_boost + reasoning_quality + priority_bonus + partnership_bonus + content_bonus + style_bonus + decision_modifier
         
         # Ensure wide variance from 0.7 - this is critical for validation
         final_probability = min(0.98, max(0.02, final_probability))
