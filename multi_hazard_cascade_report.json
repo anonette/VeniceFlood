@@ -1,0 +1,101 @@
+{
+  "timestamp": "2025-08-25T11:09:47.183281",
+  "scenario_comparison": [
+    {
+      "scenario": "ransomware_flood",
+      "total_messages": 13124,
+      "cascade_events": 55,
+      "propagations": 50,
+      "system_degradation": 0.3866666666666667,
+      "infrastructure_resilience": 0.6133333333333333,
+      "delivery_ratio": 0.8815147820786345,
+      "response_time": 0,
+      "unmet_needs": 589
+    },
+    {
+      "scenario": "power_surge_cascade",
+      "total_messages": 12760,
+      "cascade_events": 53,
+      "propagations": 50,
+      "system_degradation": 0.3875,
+      "infrastructure_resilience": 0.6124999999999999,
+      "delivery_ratio": 0.8857366771159875,
+      "response_time": 0,
+      "unmet_needs": 562
+    },
+    {
+      "scenario": "cyber_storm_perfect",
+      "total_messages": 12801,
+      "cascade_events": 53,
+      "propagations": 50,
+      "system_degradation": 0.37375,
+      "infrastructure_resilience": 0.6262500000000001,
+      "delivery_ratio": 0.8889149285212092,
+      "response_time": 0,
+      "unmet_needs": 572
+    },
+    {
+      "scenario": "supply_chain_flood",
+      "total_messages": 12554,
+      "cascade_events": 40,
+      "propagations": 39,
+      "system_degradation": 0.26499999999999996,
+      "infrastructure_resilience": 0.735,
+      "delivery_ratio": 0.904731559662259,
+      "response_time": 1,
+      "unmet_needs": 556
+    },
+    {
+      "scenario": "communication_breakdown",
+      "total_messages": 12483,
+      "cascade_events": 2,
+      "propagations": 0,
+      "system_degradation": 0.19583333333333333,
+      "infrastructure_resilience": 0.8041666666666667,
+      "delivery_ratio": 0.9017063205960105,
+      "response_time": 1,
+      "unmet_needs": 560
+    },
+    {
+      "scenario": "infrastructure_aging",
+      "total_messages": 12504,
+      "cascade_events": 1,
+      "propagations": 0,
+      "system_degradation": 0.08,
+      "infrastructure_resilience": 0.9199999999999999,
+      "delivery_ratio": 0.9002719129878439,
+      "response_time": 1,
+      "unmet_needs": 559
+    },
+    {
+      "scenario": "social_media_panic",
+      "total_messages": 12430,
+      "cascade_events": 51,
+      "propagations": 50,
+      "system_degradation": 0.2625,
+      "infrastructure_resilience": 0.7374999999999999,
+      "delivery_ratio": 0.9022526146419951,
+      "response_time": 0,
+      "unmet_needs": 558
+    },
+    {
+      "scenario": "sensor_network_failure",
+      "total_messages": 12552,
+      "cascade_events": 1,
+      "propagations": 0,
+      "system_degradation": 0.10666666666666667,
+      "infrastructure_resilience": 0.8933333333333334,
+      "delivery_ratio": 0.9008126195028681,
+      "response_time": 1,
+      "unmet_needs": 553
+    }
+  ],
+  "insights": {
+    "most_disruptive": "power_surge_cascade",
+    "most_resilient": "infrastructure_aging",
+    "highest_cascade": "ransomware_flood",
+    "communication_impact": 0.895742676888351,
+    "average_degradation": 0.2572395833333333
+  },
+  "recommendations": {}
+}

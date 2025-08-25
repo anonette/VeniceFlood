@@ -1,0 +1,23 @@
+[
+  {
+    "tick": 25,
+    "event_id": "sensor_network_down",
+    "description": "Flood sensor network provides false/no data",
+    "affected_agents": 7,
+    "system_states": {
+      "power_grid": 1.0,
+      "water_system": 1.0,
+      "communication_network": 1.0,
+      "transport_network": 0.6,
+      "emergency_services": 0.6799999999999999,
+      "digital_infrastructure": 1.0,
+      "pumping_stations": 0.44000000000000006,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0,
+      "emergency_communications": 1.0,
+      "public_wifi": 1.0,
+      "cellular_network": 1.0
+    },
+    "severity": 0.8
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "tick": 50,
+    "event_id": "aging_failure",
+    "description": "Aging infrastructure fails under flood stress",
+    "affected_agents": 8,
+    "system_states": {
+      "power_grid": 1.0,
+      "water_system": 1.0,
+      "communication_network": 1.0,
+      "transport_network": 0.7,
+      "emergency_services": 0.76,
+      "digital_infrastructure": 1.0,
+      "pumping_stations": 0.5800000000000001,
+      "flood_barriers": 1.0,
+      "sensor_network": 1.0,
+      "emergency_communications": 1.0,
+      "public_wifi": 1.0,
+      "cellular_network": 1.0
+    },
+    "severity": 0.6
+  }
+]

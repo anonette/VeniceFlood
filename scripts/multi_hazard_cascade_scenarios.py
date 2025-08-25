@@ -513,6 +513,10 @@ class MultiHazardCascadeSimulation(FloodSimulation):
     def propagate_cascade_effects(self, trigger_event: CascadeEvent, tick: int):
         """Propagate cascade effects through system interdependencies"""
         
+        # Prevent infinite cascade loops by tracking created events
+        if not hasattr(self, 'created_cascade_events'):
+            self.created_cascade_events = set()
+        
         for interdep in self.interdependencies:
             system_a_state = self.system_states.get(interdep.system_a, 1.0)
             
@@ -524,27 +528,35 @@ class MultiHazardCascadeSimulation(FloodSimulation):
                 # Apply with delay
                 propagation_tick = tick + interdep.propagation_delay
                 
-                # Create secondary cascade event
-                secondary_event = CascadeEvent(
-                    f"cascade_{interdep.dependency_id}_{tick}",
-                    HazardType.INFRASTRUCTURE_FAILURE,
-                    propagation_tick,
-                    20,  # Default duration
-                    [],  # Will be filled based on system type
-                    min(0.9, impact_strength),
-                    [trigger_event.event_id],
-                    {"propagated_from": interdep.system_a, "propagated_to": interdep.system_b},
-                    f"Cascade failure: {interdep.system_a} → {interdep.system_b}"
-                )
+                # Create unique event identifier to prevent duplicates
+                event_key = f"cascade_{interdep.dependency_id}_{propagation_tick}"
                 
-                # Add affected agents based on system type
-                secondary_event.affected_agents = self.get_agents_for_system(interdep.system_b)
-                
-                # Schedule secondary event
-                self.cascade_events.append(secondary_event)
-                
-                logger.warning(f"Cascade propagation: {interdep.system_a} → {interdep.system_b} "
-                             f"(strength: {impact_strength:.2f}, delay: {interdep.propagation_delay})")
+                # Only create event if it doesn't already exist and we haven't exceeded cascade depth
+                if (event_key not in self.created_cascade_events and
+                    len([e for e in self.cascade_events if e.event_id.startswith('cascade_')]) < 50):
+                    
+                    # Create secondary cascade event
+                    secondary_event = CascadeEvent(
+                        event_key,
+                        HazardType.INFRASTRUCTURE_FAILURE,
+                        propagation_tick,
+                        20,  # Default duration
+                        [],  # Will be filled based on system type
+                        min(0.9, impact_strength),
+                        [trigger_event.event_id],
+                        {"propagated_from": interdep.system_a, "propagated_to": interdep.system_b},
+                        f"Cascade failure: {interdep.system_a} → {interdep.system_b}"
+                    )
+                    
+                    # Add affected agents based on system type
+                    secondary_event.affected_agents = self.get_agents_for_system(interdep.system_b)
+                    
+                    # Schedule secondary event and track it
+                    self.cascade_events.append(secondary_event)
+                    self.created_cascade_events.add(event_key)
+                    
+                    logger.warning(f"Cascade propagation: {interdep.system_a} → {interdep.system_b} "
+                                 f"(strength: {impact_strength:.2f}, delay: {interdep.propagation_delay})")
     
     def get_agents_for_system(self, system_name: str) -> List[str]:
         """Get agents associated with a particular system"""
@@ -663,6 +675,9 @@ class MultiHazardCascadeSimulation(FloodSimulation):
         self.current_tick = 0
         self.flood_stage = 0
         self.active_events = set()
+        
+        # Reset cascade event tracking to prevent infinite loops
+        self.created_cascade_events = set()
         
         # Reset system states
         self.initialize_system_states()

@@ -1,0 +1,112 @@
+[
+  {
+    "dependency_id": "power_pumps",
+    "system_a": "power_grid",
+    "system_b": "pumping_stations",
+    "dependency_type": "functional",
+    "coupling_strength": 0.9,
+    "failure_threshold": 0.1,
+    "propagation_delay": 2,
+    "bidirectional": false
+  },
+  {
+    "dependency_id": "power_communications",
+    "system_a": "power_grid",
+    "system_b": "communication_network",
+    "dependency_type": "functional",
+    "coupling_strength": 0.8,
+    "failure_threshold": 0.2,
+    "propagation_delay": 1,
+    "bidirectional": false
+  },
+  {
+    "dependency_id": "power_sensors",
+    "system_a": "power_grid",
+    "system_b": "sensor_network",
+    "dependency_type": "functional",
+    "coupling_strength": 0.7,
+    "failure_threshold": 0.3,
+    "propagation_delay": 1,
+    "bidirectional": false
+  },
+  {
+    "dependency_id": "cyber_pumps",
+    "system_a": "digital_infrastructure",
+    "system_b": "pumping_stations",
+    "dependency_type": "cyber",
+    "coupling_strength": 0.85,
+    "failure_threshold": 0.15,
+    "propagation_delay": 3,
+    "bidirectional": true
+  },
+  {
+    "dependency_id": "cyber_barriers",
+    "system_a": "digital_infrastructure",
+    "system_b": "flood_barriers",
+    "dependency_type": "cyber",
+    "coupling_strength": 0.75,
+    "failure_threshold": 0.25,
+    "propagation_delay": 2,
+    "bidirectional": false
+  },
+  {
+    "dependency_id": "cyber_emergency",
+    "system_a": "digital_infrastructure",
+    "system_b": "emergency_services",
+    "dependency_type": "cyber",
+    "coupling_strength": 0.6,
+    "failure_threshold": 0.4,
+    "propagation_delay": 1,
+    "bidirectional": false
+  },
+  {
+    "dependency_id": "comm_emergency",
+    "system_a": "communication_network",
+    "system_b": "emergency_services",
+    "dependency_type": "logical",
+    "coupling_strength": 0.9,
+    "failure_threshold": 0.1,
+    "propagation_delay": 1,
+    "bidirectional": true
+  },
+  {
+    "dependency_id": "comm_coordination",
+    "system_a": "communication_network",
+    "system_b": "transport_network",
+    "dependency_type": "logical",
+    "coupling_strength": 0.5,
+    "failure_threshold": 0.5,
+    "propagation_delay": 2,
+    "bidirectional": false
+  },
+  {
+    "dependency_id": "flood_power",
+    "system_a": "water_system",
+    "system_b": "power_grid",
+    "dependency_type": "physical",
+    "coupling_strength": 0.7,
+    "failure_threshold": 0.3,
+    "propagation_delay": 5,
+    "bidirectional": false
+  },
+  {
+    "dependency_id": "flood_transport",
+    "system_a": "water_system",
+    "system_b": "transport_network",
+    "dependency_type": "physical",
+    "coupling_strength": 0.8,
+    "failure_threshold": 0.2,
+    "propagation_delay": 3,
+    "bidirectional": false
+  },
+  {
+    "dependency_id": "flood_digital",
+    "system_a": "water_system",
+    "system_b": "digital_infrastructure",
+    "dependency_type": "physical",
+    "coupling_strength": 0.6,
+    "failure_threshold": 0.4,
+    "propagation_delay": 4,
+    "bidirectional": false
+  }
+]
